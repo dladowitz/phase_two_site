@@ -8,6 +8,13 @@
 
 
 /*Hero Section*/
+
+
+.hero-text{
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  padding-bottom: 30px;
+}
 .hero-layout-simple .hero-title {
   font-size: 50px;
 }
@@ -19,5 +26,6 @@
 }
 
 .hero-tagline-second {
-  font-size: 30px;
+  font-size: 28px;
+  font-weight: 100;
 }
