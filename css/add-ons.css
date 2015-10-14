@@ -37,3 +37,16 @@
   margin-left: 25%
 }
 
+.detail-icon {
+  font-size: 40px;
+  margin-right: 30px;
+}
+
+.details-table {
+  text-align: center:;
+}
+
+.details-table td {
+  font-size: 25px;
+}
+
