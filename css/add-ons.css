@@ -31,7 +31,8 @@
 
 /*Details Section*/
 .detail-headline {
-  /*text-align: center;*/
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
   font-size: 25px;
   color: #ECECEC;
   margin-left: 25%
@@ -48,5 +49,10 @@
 
 .details-table td {
   font-size: 25px;
+}
+
+/*Pricing Section*/
+.price {
+  padding-bottom: 30px;
 }
 
