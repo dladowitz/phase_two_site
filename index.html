@@ -54,6 +54,25 @@
 
 		<div id="document" class="document">
 
+
+			<!-- Application Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-body">
+			        <p>
+								<iframe src="html/apply.html" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+			        </p>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			      </div>
+			    </div><!-- /.modal-content -->
+			  </div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+
 			<!-- HEADER
 			================================= -->
 			<header id="header" class="header-section section section-dark navbar navbar-fixed-top">
@@ -101,7 +120,7 @@
 							</li>
 							
 							<!-- HEADER ACTION BUTTON -->
-							<li class="header-action-button"><a href="#" class="btn btn-primary">Apply Now</a></li>
+							<li class="header-action-button"><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Apply Now</button></li>
 
 						</ul>
 
@@ -159,7 +178,7 @@
 
 									<p class="hero-buttons text-center">
 										<a href="#about" class="btn btn-lg btn-default">Learn More</a>
-										<a href="https://wrapbootstrap.com/theme/drew-all-in-one-marketing-landing-page-WB0350PTJ" class="btn btn-lg btn-primary">Apply Now</a>
+										<button type="button" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">Apply Now</button>
 									</p>
 
 								</div>
@@ -197,9 +216,150 @@
 
 			</section>
 
+			 			<!-- Details  
+			 			================================= -->
+						
+						<section id="details" class="section-accent section">
+							<div class="container-fluid row">
+								<h2 class="section-heading text-center">Service Details</h2>
+								<div class="col-md-10">
+			<!-- 						<table class="table details-table">
+										<tr>
+											<td>
+												<i class="fa fa-tablet detail-icon"></i>
+											</td>
+											<td>
+												New preloaded iPad delivered directly to agent
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i class="fa fa-desktop detail-icon"></i>
+											</td>
+											<td>
+												Branding Packages
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i class="fa fa-tablet detail-icon"></i>
+											</td>
+											<td>
+												New preloaded iPad delivered directly to agent
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i class="fa fa-tablet detail-icon"></i>
+											</td>
+											<td>
+												New preloaded iPad delivered directly to agent
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i class="fa fa-tablet detail-icon"></i>
+											</td>
+											<td>
+												New preloaded iPad delivered directly to agent
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i class="fa fa-tablet detail-icon"></i>
+											</td>
+											<td>
+												New preloaded iPad delivered directly to agent
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i class="fa fa-tablet detail-icon"></i>
+											</td>
+											<td>
+												New preloaded iPad delivered directly to agent
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i class="fa fa-tablet detail-icon"></i>
+											</td>
+											<td>
+												New preloaded iPad delivered directly to agent
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<i class="fa fa-tablet detail-icon"></i>
+											</td>
+											<td>
+												New preloaded iPad delivered directly to agent
+											</td>
+										</tr>
+
+									</table>	 -->
+
+									<p class="detail-headline">
+										<i class="fa fa-tablet detail-icon col-md-1"></i>
+										New preloaded iPad delivered directly to agent
+									</p>						
+
+									<p class="detail-headline">
+										<i class="fa fa-desktop detail-icon col-md-1"></i>
+										Branding Packages
+									</p>
+
+									<p class="detail-headline">
+										<i class="fa fa-briefcase detail-icon col-md-1"></i>
+										Online Marketing Assistance
+									</p>
+
+									<p class="detail-headline">
+										<i class="fa fa-phone detail-icon col-md-1"></i>
+										Quickly Responding to Inbounds and Schedule Follow Up Calls
+									</p>
+
+									<p class="detail-headline">
+										<i class="fa fa-book detail-icon col-md-1"></i>
+										Listing Package and Appointment Assistance
+									</p>
+
+									<p class="detail-headline">
+										<i class="fa fa-exclamation-triangle detail-icon col-md-1"></i>
+										Text alerts when their flagged houses have an update
+									</p>												
+
+									<p class="detail-headline">
+										<i class="fa fa-usd detail-icon col-md-1"></i>
+										ESCROW Assistance
+									</p>						
+
+									<p class="detail-headline">
+										<i class="fa fa-envelope-o detail-icon col-md-1"></i>
+										Weekly Summary e-mails with what to expect in the coming week
+									</p>	
+
+									<p class="detail-headline">
+										<i class="fa fa-file-image-o detail-icon col-md-1"></i>
+										Post sale infographic
+									</p>	
+
+									<p class="detail-headline">
+										<i class="fa fa-gift detail-icon col-md-1"></i>
+										Our ongoing gifting process designed to maximize referrals
+									</p>	
+								</div>
+
+
+							</div>
+						</section>
+
+
+						<!-- Details -->			
+
 			<!-- DESCRIPTION
 			================================= -->
-			<section id="about" class="about-section section">
+<!-- 			<section id="about" class="about-section section">
 
 				<div class="container">
 
@@ -207,12 +367,10 @@
 
 					<div class="about-row row">
 
-						<!-- DESCRIPTION IMAGE -->
 						<div class="about-image col-md-6" data-animation="fadeIn">
 							<img src="images/backgrounds/new_england_tall.jpg" alt="Description Image">
 						</div>
 
-						<!-- DESCRIPTION TEXT -->
 						<div class="about-text col-md-6">
 							<p class="lead"><p class="lead">We elevate the performance of our partner agents to the next level</p>
 							<p>Here’s what we focus on:</p>
@@ -239,7 +397,7 @@
 
 				</div>
 
-			</section>
+			</section> -->
 
 			<!-- BENEFITS
 			================================= -->
@@ -313,7 +471,7 @@
 
 			<!-- HOW IT WORKS
 			================================= -->
-			<section id="how-it-works" class="how-it-works-section section">
+<!-- 			<section id="how-it-works" class="how-it-works-section section">
 
 				<div class="container-fluid">
 					
@@ -321,7 +479,6 @@
 
 					<div class="hiw-row row">
 
-						<!-- HOW IT WORKS - ITEM 1 -->
 						<div class="col-sm-6 col-md-3" data-animation="fadeIn">
 							<div class="hiw-item">
 								<img class="hiw-item-picture" src="images/contents/meeting.jpg" alt="">
@@ -333,7 +490,6 @@
 							</div>
 						</div>
 
-						<!-- HOW IT WORKS - ITEM 2 -->
 						<div class="col-sm-6 col-md-3" data-animation="fadeIn">
 							<div class="hiw-item even">
 								<img class="hiw-item-picture" src="images/new_contents/graphic_designers.jpg" alt="">
@@ -347,7 +503,6 @@
 
 						<div class="hidden-md hidden-lg clear"></div>
 
-						<!-- HOW IT WORKS - ITEM 3 -->
 						<div class="col-sm-6 col-md-3" data-animation="fadeIn">
 							<div class="hiw-item">
 								<img class="hiw-item-picture" src="images/new_contents/phone_support.jpg" alt="">
@@ -359,7 +514,6 @@
 							</div>
 						</div>
 
-						<!-- HOW IT WORKS - ITEM 4 -->
 						<div class="col-sm-6 col-md-3" data-animation="fadeIn">
 							<div class="hiw-item even">
 								<img class="hiw-item-picture" src="images/new_contents/planning.jpg" alt="">
@@ -376,7 +530,7 @@
 				</div>
 
 			</section>
-
+ -->
 			<!-- NUMBERS
 			================================= -->
 			<section id="numbers" class="numbers-section section-dark section">
@@ -400,8 +554,10 @@
 						<div class="col-sm-6 col-md-3">
 							<div class="numbers-item">
 								<div class="numbers-item-counter"><span class="counter-up">66.6</span>%</div>
-								<div class="numbers-item-caption">Of Clients Choose the first Agent they meet with</div>			
-
+								<div class="numbers-item-caption">
+									<p>Of Clients Choose the first Agent they meet with.</p>
+									<p>How are you making sure that’s you?</p>
+								</div>			
 							</div>
 						</div>
 
@@ -409,7 +565,10 @@
 						<div class="col-sm-6 col-md-3">
 							<div class="numbers-item">
 								<div class="numbers-item-counter"><span class="counter-up">10</span></div>
-								<div class="numbers-item-caption">Average Years Between Repeat Home Purchases</div>
+								<div class="numbers-item-caption">
+									<p>Average Years Between Repeat Home Purchases</p>
+									<p>How are you staying top of mind?</p>
+								</div>
 							</div>
 						</div>
 
@@ -417,7 +576,10 @@
 						<div class="col-sm-6 col-md-3">
 							<div class="numbers-item">
 								<div class="numbers-item-counter"><span class="counter-up">12</span></div>
-								<div class="numbers-item-caption">Average Agent Trasactions Per Year</div>
+								<div class="numbers-item-caption">
+									<p>Average Agent Trasactions Per Year</p>
+									<p>How many are you doing?</p>
+								</div>
 							</div>
 						</div>
 
@@ -425,7 +587,10 @@
 						<div class="col-sm-6 col-md-3">
 							<div class="numbers-item">
 								<div class="numbers-item-counter">$<span class="counter-up">1,700,000</span></div>
-								<div class="numbers-item-caption">Average Broker Sales Volume</div>
+								<div class="numbers-item-caption">
+									<p>Average Broker Sales Volume</p>
+									<p>How are you working to beat this?</p>
+								</div>
 							</div>
 						</div>
 
@@ -552,146 +717,7 @@
  -->
 
 
- 			<!-- Details  
- 			================================= -->
-			
-			<section id="details" class="section-accent section">
-				<div class="container-fluid row">
-					<h2 class="section-heading text-center">Service Details</h2>
-					<div class="col-md-10">
-<!-- 						<table class="table details-table">
-							<tr>
-								<td>
-									<i class="fa fa-tablet detail-icon"></i>
-								</td>
-								<td>
-									New preloaded iPad delivered directly to agent
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<i class="fa fa-desktop detail-icon"></i>
-								</td>
-								<td>
-									Branding Packages
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<i class="fa fa-tablet detail-icon"></i>
-								</td>
-								<td>
-									New preloaded iPad delivered directly to agent
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<i class="fa fa-tablet detail-icon"></i>
-								</td>
-								<td>
-									New preloaded iPad delivered directly to agent
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<i class="fa fa-tablet detail-icon"></i>
-								</td>
-								<td>
-									New preloaded iPad delivered directly to agent
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<i class="fa fa-tablet detail-icon"></i>
-								</td>
-								<td>
-									New preloaded iPad delivered directly to agent
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<i class="fa fa-tablet detail-icon"></i>
-								</td>
-								<td>
-									New preloaded iPad delivered directly to agent
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<i class="fa fa-tablet detail-icon"></i>
-								</td>
-								<td>
-									New preloaded iPad delivered directly to agent
-								</td>
-							</tr>
-							<tr>
-								<td>
-									<i class="fa fa-tablet detail-icon"></i>
-								</td>
-								<td>
-									New preloaded iPad delivered directly to agent
-								</td>
-							</tr> -->
 
-						</table>	
-
-						<p class="detail-headline">
-							<i class="fa fa-tablet detail-icon col-md-1"></i>
-							New preloaded iPad delivered directly to agent
-						</p>						
-
-						<p class="detail-headline">
-							<i class="fa fa-desktop detail-icon col-md-1"></i>
-							Branding Packages
-						</p>
-
-						<p class="detail-headline">
-							<i class="fa fa-briefcase detail-icon col-md-1"></i>
-							Online Marketing Assistance
-						</p>
-
-						<p class="detail-headline">
-							<i class="fa fa-phone detail-icon col-md-1"></i>
-							Quickly Responding to Inbounds and Schedule Follow Up Calls
-						</p>
-
-						<p class="detail-headline">
-							<i class="fa fa-book detail-icon col-md-1"></i>
-							Listing Package and Appointment Assistance
-						</p>
-
-						<p class="detail-headline">
-							<i class="fa fa-exclamation-triangle detail-icon col-md-1"></i>
-							Text alerts when their flagged houses have an update
-						</p>												
-
-						<p class="detail-headline">
-							<i class="fa fa-usd detail-icon col-md-1"></i>
-							ESCROW Assistance
-						</p>						
-
-						<p class="detail-headline">
-							<i class="fa fa-envelope-o detail-icon col-md-1"></i>
-							Weekly Summary e-mails with what to expect in the coming week
-						</p>	
-
-						<p class="detail-headline">
-							<i class="fa fa-file-image-o detail-icon col-md-1"></i>
-							Post sale infographic
-						</p>	
-
-						<p class="detail-headline">
-							<i class="fa fa-gift detail-icon col-md-1"></i>
-							Our ongoing gifting process designed to maximize referrals
-						</p>	
-					</div>
-
-
-				</div>
-			</section>
-
-
-			<!-- Details -->
 
 
 			<!-- TWO COLS DESCRIPTION SECTION
@@ -1260,8 +1286,9 @@
 
 					<h3 class="closing-shout">Ready to start?</h3>
 
-					<div class="closing-buttons"><a href="#hero" class="anchor-link btn btn-lg btn-primary">Apply Now</a></div>
-
+					<div class="closing-buttons">
+						<button type= button class="anchor-link btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">Apply Now</button>
+					</div>
 				</div>
 
 			</section>
