@@ -1,3 +1,30 @@
+/* Applicaiton Modal*/
+.apply-icon {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 0px !important;
+}
+
+.apply-title-1 {
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.apply-title-2 {
+  color: black;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.form-container {
+  padding: 0 40px;
+}
+
+.apply-input {
+  font-size: 20px;
+}
+
 
 /*Header*/
 .navbar-logo {
@@ -61,8 +88,7 @@
   padding-bottom: 30px;
 }
 
-
-/*Apply Page*/
-.apply-icon {
-  font-size: 60px;
+/*Modal*/
+.no-scroll {
+  overflow-y: auto;
 }
