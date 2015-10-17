@@ -61,6 +61,11 @@
 }
 
 
+/*Benefits*/
+.benefit {
+  height: 240px;
+}
+
 /*Details Section*/
 .detail-headline {
   border-bottom: 1px solid white;
