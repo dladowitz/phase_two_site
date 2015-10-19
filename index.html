@@ -1,3 +1,8 @@
+---
+author: Captivate Real Estate
+---
+
+
 <!DOCTYPE html>
 <!-- Drew - A Multipurpose Landing Page Template, designed by David Rozando (http://design.davidrozando.com) -->
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
@@ -10,10 +15,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<!-- BASIC INFO -->
-		<title>Agent Assist</title>
+		<title>{{ site.company-name }}</title>
 		<meta name="author" content="David Ladowitz">
 		<meta name="keywords" content="Real Estate">
-		<meta name="description" content="Agent Assist">
+		<meta name="description" content="{{ site.company-name }}">
 
 		<!-- FAVICONS -->
 		<link rel="icon" href="images/favicons/favicon.ico">
@@ -130,7 +135,7 @@
 
 						<!-- HEADER LOGO -->
 						<a class="navbar-logo navbar-brand anchor-link" href="#hero">
-							Agent Assist
+							{{ site.company-name }}
 							<!-- <img src="images/logos/header-logo.png" srcset="images/logos/header-logo@2x.png 2x" alt="Drew"> -->
 							<!-- <img src="images/logos/captivate-header-logo.png"alt="logo"> -->
 						</a>
@@ -244,7 +249,7 @@
 						<div class="col-md-10 col-md-offset-1">
 
 							<p class="headline-text">
-								We make sure your clients get fast answers and unparralled attention.
+								We make sure your clients get fast answers and unparalleled attention.
 							</p>
 
 						</div>
@@ -279,13 +284,13 @@
 								</li>
 								<li>
 									<span class="icon-list-icon fa fa-calendar" data-animation="bounceIn"></span>
-									<h4 class="icon-list-title">Giving you more time by hanlding the details</h4>
+									<h4 class="icon-list-title">Giving you more time by handling the details</h4>
 									<p>We make sure you are leveraging the latest tools to free you up your day.</p>
 								</li>
 								<li>
 									<span class="icon-list-icon fa fa-heart-o" data-animation="bounceIn"></span>
 									<h4 class="icon-list-title">Make you top of mind in your area</h4>
-									<p>We work to make sure you are the the agent people know in your neighboorhood</p>
+									<p>We work to ensure you are the agent people know in your neighborhood.</p>
 								</li>
 							</ul>
 						</div>
@@ -327,7 +332,7 @@
 							<div class="benefit">
 								<span class="benefit-icon fa fa-home" data-animation="bounceIn"></span>
 								<h4 class="benefit-title">Be the 'go-to' agent in your community</h4>
-								<p class="benefit-description">We help you get your name out in your neighboorhood.</p>
+								<p class="benefit-description">We help you get your name out in your neighborhood.</p>
 							</div>
 						</div>
 
@@ -357,7 +362,7 @@
 							<div class="benefit">
 								<span class="benefit-icon fa fa-pagelines" data-animation="bounceIn"></span>
 								<h4 class="benefit-title">Grow your transaction size</h4>
-								<p class="benefit-description">Take your business to the next level with bigger transactions</p>
+								<p class="benefit-description">Take your business to the next level with bigger transactions.</p>
 							</div>
 						</div>
 
@@ -382,7 +387,7 @@
 			================================= -->
 			<section id="details" class="section-accent section">
 				<div class="container-fluid row">
-					<h2 class="section-heading text-center">What We Do</h2>
+					<h2 class="section-heading text-center">The Details</h2>
 					<div class="col-md-10">
 
 						<p class="detail-headline">
@@ -1157,7 +1162,7 @@
 								<h2 class="section-heading">Contact Us</h2>
 								<div class="row">
 									<address>
-										<strong>Agent Assist</strong>
+										<strong>{{ site.company-name }}/strong>
 										<ul class="fa-ul">
 											<li><i class="fa-li fa fa-home"></i>855 Front St<br>San Francisco, CA</li>
 											<li><i class="fa-li fa fa-phone"></i>Phone: 408 666 4411</li>
@@ -1221,7 +1226,7 @@
 				<div class="container">
 
 					<h2 class="footer-logo">
-						Agent Assist
+						{{ site.company-name }}
 						<!-- <img src="images/logos/footer-logo.png" srcset="images/logos/footer-logo@2x.png 2x" alt="Drew"> -->
 					</h2>
 
@@ -1233,7 +1238,7 @@
 					</div>
 
 					<div class="footer-copyright">
-						&copy; 2015 Agent Assist
+						&copy; 2015 {{ site.company-name }}
 					</div>
 
 				</div>
