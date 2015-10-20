@@ -1,0 +1,99 @@
+/* Applicaiton Modal*/
+.apply-icon {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 0px !important;
+}
+
+.apply-title-1 {
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.apply-title-2 {
+  color: black;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.form-container {
+  padding: 0 40px;
+}
+
+.apply-input {
+  font-size: 20px;
+}
+
+
+/*Header*/
+.navbar-logo {
+  font-weight: 400;
+  font-family: "playfair display";
+  font-size: 25px;
+}
+
+
+/*Hero Section*/
+.hero-text{
+  background: rgba(0,0,0,0.6);
+  border-radius: 8px;
+  padding-bottom: 30px;
+}
+
+.hero-buttons .apply-now-button {
+  margin-top: 15px;
+}
+
+.hero-layout-simple .hero-title {
+  font-size: 50px;
+}
+
+.hero-tagline-first {
+  font-size: 40px;
+  position: relative;
+  bottom: 10px;
+}
+
+.hero-tagline-second {
+  font-size: 28px;
+  font-weight: 100;
+}
+
+
+/*Benefits*/
+.benefit {
+  height: 240px;
+}
+
+/*Details Section*/
+.detail-headline {
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: #ECECEC;
+  margin-left: 25%
+}
+
+.detail-icon {
+  font-size: 40px;
+  margin-right: 30px;
+}
+
+.details-table {
+  text-align: center:;
+}
+
+.details-table td {
+  font-size: 25px;
+}
+
+/*Pricing Section*/
+.price {
+  padding-bottom: 30px;
+}
+
+/*Modal*/
+.no-scroll {
+  overflow-y: auto;
+}

@@ -1,5 +1,8 @@
 ---
-author: Captivate Real Estate
+main-tagline: Top performing agents all have a team backing them up
+secondary-tagline: Isn’t it about time you found yours?
+first-transition: We’ve assembled a team with a diverse background of success to bring you the expertise and manpower necessary to propel you to be the top performing agent in your area.
+
 ---
 
 
@@ -212,10 +215,10 @@ author: Captivate Real Estate
 
 									<div class="hero-heading text-center" data-animation="fadeIn">
 
-										<h1 class="hero-title">We take smart agents and turn them into top performers</h1>
+										<h1 class="hero-title">{{ page.main-tagline }}</h1>
 
 										<!-- <p class="hero-tagline-first">We can be yours</p> -->
-										<p class="hero-tagline-second">We only work with one agent per zip code providing them with world class support.</p>
+										<p class="hero-tagline-second">{{ page.secondary-tagline }}</p>
 
 									</div>
 
@@ -249,7 +252,7 @@ author: Captivate Real Estate
 						<div class="col-md-10 col-md-offset-1">
 
 							<p class="headline-text">
-								We make sure your clients get fast answers and unparalleled attention.
+								{{ page.first-transition }}
 							</p>
 
 						</div>
@@ -261,12 +264,9 @@ author: Captivate Real Estate
 
 			<!-- DESCRIPTION
 			================================= -->
-			<section id="about" class="about-section section">
-
+			<!-- <section id="about" class="about-section section">
 				<div class="container">
-
 					<h2 class="section-heading text-center">What We Do</h2>
-
 					<div class="about-row row">
 
 						<div class="about-image col-md-6" data-animation="fadeIn">
@@ -296,18 +296,74 @@ author: Captivate Real Estate
 						</div>
 
 					</div>
+				</div>
+			</section> -->
+
+
+			<!-- NUMBERS
+			================================= -->
+			<section id="numbers" class="numbers-section section-dark section">
+
+				<div class="section-background">
+
+					<!-- IMAGE BACKGROUND -->
+					<div class="section-background-image parallax" data-stellar-ratio="0.4">
+						<img src="images/backgrounds/sf_from_above.jpg" style="opacity: 0.2;">
+					</div>
+
+				</div>
+
+				<div class="container">
+
+					<h2 class="section-heading text-center">By The Numbers</h2>
+
+					<div class="numbers-row row">
+
+						<!-- NUMBERS - ITEM 1 -->
+						<div class="col-sm-6 col-md-3">
+							<div class="numbers-item">
+								<div class="numbers-item-counter"><span class="counter-up">97</span>%</div>
+								<div class="numbers-item-caption">
+									<p>of top 5% agents have a support team</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- NUMBERS - ITEM 2 -->
+						<div class="col-sm-6 col-md-3">
+							<div class="numbers-item">
+								<div class="numbers-item-counter">$<span class="counter-up">47,000</span></div>
+								<div class="numbers-item-caption">
+									<p>Average Salary of a Real Estate Assistant</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- NUMBERS - ITEM 3 -->
+						<div class="col-sm-6 col-md-3">
+							<div class="numbers-item">
+								<div class="numbers-item-counter"><span class="counter-up">13</span> mo</div>
+								<div class="numbers-item-caption">
+									<p>Average Experience of a Real Estate Assistant</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- NUMBERS - ITEM 4 -->
+						<div class="col-sm-6 col-md-3">
+							<div class="numbers-item">
+								<div class="numbers-item-counter"><span class="counter-up">22</span> hrs</div>
+								<div class="numbers-item-caption">
+									<p>Average Time Spent Monthly on Assistant Training</p>
+								</div>
+							</div>
+						</div>
+
+					</div>
 
 				</div>
 
 			</section>
-
-
-
-
-
-
-
-
 
 
 			<!-- BENEFITS
@@ -317,13 +373,14 @@ author: Captivate Real Estate
 				<div class="container">
 
 					<h2 class="section-heading text-center">The Benefits</h2>
+					<h3 class="text-center">Our agents find:</h3>
 
 					<div class="benefits-row row">
 
 						<div class="col-sm-6 col-md-4">
 							<div class="benefit">
 								<span class="benefit-icon fa fa-clock-o" data-animation="bounceIn"></span>
-								<h4 class="benefit-title">Spend Less Time on Details</h4>
+								<h4 class="benefit-title">They have More Time to Spend How They Want</h4>
 								<p class="benefit-description">We handle many of the day to day tasks that keep you from focusing on the big picture.</p>
 							</div>
 						</div>
@@ -331,53 +388,48 @@ author: Captivate Real Estate
 						<div class="col-sm-6 col-md-4">
 							<div class="benefit">
 								<span class="benefit-icon fa fa-home" data-animation="bounceIn"></span>
-								<h4 class="benefit-title">Be the 'go-to' agent in your community</h4>
-								<p class="benefit-description">We help you get your name out in your neighborhood.</p>
+								<h4 class="benefit-title">They Get Recognized</h4>
+								<p class="benefit-description">You’ve earned your recognition and we’ll make sure you see it.</p>
 							</div>
 						</div>
 
 						<div class="hidden-md hidden-lg clear"></div>
-
 						<div class="col-sm-6 col-md-4">
 							<div class="benefit">
 								<span class="benefit-icon fa fa-line-chart" data-animation="bounceIn"></span>
-								<h4 class="benefit-title">Close More Transactions</h4>
+								<h4 class="benefit-title">They Close More Transactions</h4>
 								<p class="benefit-description">More transactions mean more money. Period.</p>
 							</div>
 						</div>
 
 						<div class="hidden-sm clear"></div>
-
 						<div class="col-sm-6 col-md-4">
 							<div class="benefit">
 								<span class="benefit-icon fa fa-heartbeat" data-animation="bounceIn"></span>
-								<h4 class="benefit-title">Worry less</h4>
-								<p class="benefit-description">With us handling the details you can stop chasing down small things that consume lots of time.</p>
+								<h4 class="benefit-title">They Have Materials to be Proud of</h4>
+								<p class="benefit-description">We’ll handle your marketing, you’ll be impressed with what you’re going to be associated with.</p>
 							</div>
 						</div>
 
 						<div class="hidden-md hidden-lg clear"></div>
-
 						<div class="col-sm-6 col-md-4">
 							<div class="benefit">
 								<span class="benefit-icon fa fa-pagelines" data-animation="bounceIn"></span>
-								<h4 class="benefit-title">Grow your transaction size</h4>
-								<p class="benefit-description">Take your business to the next level with bigger transactions.</p>
+								<h4 class="benefit-title">That They’re Getting Smarter</h4>
+								<p class="benefit-description">Our data scientists and tools will give you a level of insight into your market that few people have had before.</p>
 							</div>
 						</div>
 
 						<div class="col-sm-6 col-md-4">
 							<div class="benefit">
 								<span class="benefit-icon fa fa-users" data-animation="bounceIn"></span>
-								<h4 class="benefit-title">Build a Team</h4>
-								<p class="benefit-description">With more time you can build a team of agents who work for you.</p>
+								<h4 class="benefit-title">They Become the Top Local Agent</h4>
+								<p class="benefit-description">If you’re accepted, we’ll do whatever it takes to get your name in that top spot.</p>
 							</div>
 						</div>
-
 					</div>
 
 				</div>
-
 			</section>
 
 
@@ -391,6 +443,35 @@ author: Captivate Real Estate
 					<div class="col-md-10">
 
 						<p class="detail-headline">
+							<i class="fa fa-tablet detail-icon col-md-1"></i>
+								Data Science Leading to Local Insights
+						</p>
+
+						<p class="detail-headline">
+							<i class="fa fa-tablet detail-icon col-md-1"></i>
+								Industry Leading Branding and Marketing
+						</p>
+
+						<p class="detail-headline">
+							<i class="fa fa-tablet detail-icon col-md-1"></i>
+								Keeping Your Client Response Time Low
+						</p>
+
+						<p class="detail-headline">
+							<i class="fa fa-tablet detail-icon col-md-1"></i>
+								Keeping You and Your Clients on the Same Page
+						</p>
+
+						<p class="detail-headline">
+							<i class="fa fa-tablet detail-icon col-md-1"></i>
+								ESCROW Support
+						</p>
+
+						<p class="detail-headline">
+							<i class="fa fa-tablet detail-icon col-md-1"></i>
+								Referral Maximization
+						</p>
+						<!-- <p class="detail-headline">
 							<i class="fa fa-tablet detail-icon col-md-1"></i>
 							New preloaded iPad delivered with the latest tools.
 						</p>
@@ -438,11 +519,12 @@ author: Captivate Real Estate
 						<p class="detail-headline">
 							<i class="fa fa-gift detail-icon col-md-1"></i>
 							Our ongoing gifting process designed to maximize referrals
-						</p>
+						</p> -->
 					</div>
 				</div>
 			</section>
-			<!-- Details -->
+
+
 
 			<!-- HOW IT WORKS
 			================================= -->
@@ -506,74 +588,7 @@ author: Captivate Real Estate
 
 			</section>
  -->
-			<!-- NUMBERS
-			================================= -->
-			<section id="numbers" class="numbers-section section-dark section">
 
-				<div class="section-background">
-
-					<!-- IMAGE BACKGROUND -->
-					<div class="section-background-image parallax" data-stellar-ratio="0.4">
-						<img src="images/backgrounds/sf_from_above.jpg" style="opacity: 0.2;">
-					</div>
-
-				</div>
-
-				<div class="container">
-
-					<h2 class="section-heading text-center">NAR Statistics</h2>
-
-					<div class="numbers-row row">
-
-						<!-- NUMBERS - ITEM 1 -->
-						<div class="col-sm-6 col-md-3">
-							<div class="numbers-item">
-								<div class="numbers-item-counter"><span class="counter-up">66.6</span>%</div>
-								<div class="numbers-item-caption">
-									<p>Of Clients Choose the first Agent they meet with.</p>
-									<p>How are you making sure that’s you?</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- NUMBERS - ITEM 2 -->
-						<div class="col-sm-6 col-md-3">
-							<div class="numbers-item">
-								<div class="numbers-item-counter"><span class="counter-up">10</span></div>
-								<div class="numbers-item-caption">
-									<p>Average Years Between Repeat Home Purchases</p>
-									<p>How are you staying top of mind?</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- NUMBERS - ITEM 3 -->
-						<div class="col-sm-6 col-md-3">
-							<div class="numbers-item">
-								<div class="numbers-item-counter"><span class="counter-up">12</span></div>
-								<div class="numbers-item-caption">
-									<p>Average Agent Trasactions Per Year</p>
-									<p>How many are you doing?</p>
-								</div>
-							</div>
-						</div>
-
-						<!-- NUMBERS - ITEM 4 -->
-						<div class="col-sm-6 col-md-3">
-							<div class="numbers-item">
-								<div class="numbers-item-counter">$<span class="counter-up">1,700,000</span></div>
-								<div class="numbers-item-caption">
-									<p>Average Broker Sales Volume</p>
-									<p>How are you working to beat this?</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</div>
-
-			</section>
 
 			<!-- VIDEO SECTION
 			================================= -->
@@ -604,32 +619,32 @@ author: Captivate Real Estate
  -->
 			<!-- TEAM
 			================================= -->
-<!-- 			<section id="team" class="team-section section">
+			<section id="team" class="team-section section">
 
 				<div class="container-fluid">
 
-					<h2 class="section-heading text-center">Meet The Experts</h2>
+					<h2 class="section-heading text-center">Meet Your Experts</h2>
 
 					<div class="team-row row">
 
 						<div class="col-sm-6 col-md-4 col-lg-2" data-animation="fadeIn">
 							<div class="team-member">
-								<img class="team-member-picture" src="images/contents/team-member-1.jpg" alt="">
+								<img class="team-member-picture" src="images/contents/marshall.jpg" alt="">
 								<div class="team-member-text">
-									<h4 class="team-member-name">Jason Castillo</h4>
-									<div class="team-member-position">CEO &amp; Co-Founder</div>
-									<p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+									<h4 class="team-member-name">Marshall Darr</h4>
+									<div class="team-member-position">Marketing Analytics</div>
+									<!-- <p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p> -->
 								</div>
 							</div>
 						</div>
 
 						<div class="col-sm-6 col-md-4 col-lg-2" data-animation="fadeIn">
 							<div class="team-member even">
-								<img class="team-member-picture" src="images/contents/team-member-2.jpg" alt="">
+								<img class="team-member-picture" src="images/contents/david.jpg" alt="">
 								<div class="team-member-text">
-									<h4 class="team-member-name">Harold Kelly</h4>
-									<div class="team-member-position">CTO &amp; Co-Founder</div>
-									<p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+									<h4 class="team-member-name">David Ladowitz</h4>
+									<div class="team-member-position">Engineering</div>
+									<!-- <p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p> -->
 								</div>
 							</div>
 						</div>
@@ -638,11 +653,11 @@ author: Captivate Real Estate
 
 						<div class="col-sm-6 col-md-4 col-lg-2" data-animation="fadeIn">
 							<div class="team-member">
-								<img class="team-member-picture" src="images/contents/team-member-3.jpg" alt="">
+								<img class="team-member-picture" src="images/contents/david-h.jpg" alt="">
 								<div class="team-member-text">
-									<h4 class="team-member-name">Kathy Nelson</h4>
-									<div class="team-member-position">Graphic Designer</div>
-									<p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+									<h4 class="team-member-name">Matt Goldwater</h4>
+									<div class="team-member-position">Data Science</div>
+									<!-- <p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p> -->
 								</div>
 							</div>
 						</div>
@@ -651,11 +666,11 @@ author: Captivate Real Estate
 
 						<div class="col-sm-6 col-md-4 col-lg-2" data-animation="fadeIn">
 							<div class="team-member even">
-								<img class="team-member-picture" src="images/contents/team-member-4.jpg" alt="">
+								<img class="team-member-picture" src="images/contents/misha2.jpg" alt="">
 								<div class="team-member-text">
-									<h4 class="team-member-name">Dylan Fowler</h4>
-									<div class="team-member-position">UI/UX Designer</div>
-									<p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+									<h4 class="team-member-name">Misha Chellam</h4>
+									<div class="team-member-position">Sales Technology</div>
+									<!-- <p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p> -->
 								</div>
 							</div>
 						</div>
@@ -664,32 +679,30 @@ author: Captivate Real Estate
 
 						<div class="col-sm-6 col-md-4 col-lg-2" data-animation="fadeIn">
 							<div class="team-member">
-								<img class="team-member-picture" src="images/contents/team-member-5.jpg" alt="">
+								<img class="team-member-picture" src="images/contents/kirby.jpg" alt="">
 								<div class="team-member-text">
-									<h4 class="team-member-name">Carolyn Harvey</h4>
-									<div class="team-member-position">Development</div>
-									<p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+									<h4 class="team-member-name">Kirby Ptacek</h4>
+									<div class="team-member-position">Residential Real Estate</div>
+									<!-- <p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p> -->
 								</div>
 							</div>
 						</div>
 
 						<div class="col-sm-6 col-md-4 col-lg-2" data-animation="fadeIn">
 							<div class="team-member even">
-								<img class="team-member-picture" src="images/contents/team-member-6.jpg" alt="">
+								<img class="team-member-picture" src="images/contents/clay.jpg" alt="">
 								<div class="team-member-text">
-									<h4 class="team-member-name">Diane Grant</h4>
-									<div class="team-member-position">Marketing &amp; Strategy</div>
-									<p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+									<h4 class="team-member-name">Clay Klusas</h4>
+									<div class="team-member-position">Digital Media</div>
+									<!-- <p class="team-member-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p> -->
 								</div>
 							</div>
 						</div>
-
 					</div>
-
 				</div>
 
 			</section>
- -->
+
 
 
 
@@ -800,7 +813,7 @@ author: Captivate Real Estate
  -->
 			<!-- PRICING SECTION
 			================================= -->
-			<section id="pricing" class="pricing-section section">
+			<!-- <section id="pricing" class="pricing-section section">
 
 				<div class="container">
 
@@ -812,11 +825,8 @@ author: Captivate Real Estate
 						</div>
 					</div>
 
-					<!-- PRICING TABLE -->
 					<div class="pricing-table row">
-
-						<!-- PRICING PACKAGE 1 -->
-<!-- 						<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" data-animation="fadeInUp">
+						<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" data-animation="fadeInUp">
 							<div class="pricing-package">
 								<div class="pricing-package-header">
 									<h4 class="price-title">Bronze</h4>
@@ -836,9 +846,8 @@ author: Captivate Real Estate
 									<li>24/7 Customer Support</li>
 								</ul>
 							</div>
-						</div> -->
+						</div>
 
-						<!-- PRICING PACKAGE 2 -->
 						<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4" data-animation="fadeInUp">
 							<div class="pricing-package pricing-package-featured">
 								<div class="pricing-package-header">
@@ -848,28 +857,46 @@ author: Captivate Real Estate
 										<span class="price-number">1999</span>
 										<span class="price-decimal">99</span>
 									</div>
-									<!-- <div class="price-description">Billed monthly</div> -->
+									<div class="price-description">Billed monthly</div>
 									<div class="price-featured">Billed Monthly</div>
 								</div>
-<!-- 								<ul class="pricing-package-items">
+								<ul class="pricing-package-items">
 									<li>Up to 200 Projects</li>
 									<li>5GB Harddisk Space</li>
 									<li>Unlimited Visitors</li>
 									<li>Custom Domain</li>
 									<li><del>Premium Themes Access</del></li>
 									<li>24/7 Customer Support</li>
-								</ul> -->
+								</ul>
 							</div>
 						</div>
 
-						<!-- PRICING PACKAGE 3 -->
-<!-- 4 -->
+						<div class="col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-0" data-animation="fadeInUp">
+							<div class="pricing-package">
+								<div class="pricing-package-header">
+									<h4 class="price-title">Bronze</h4>
+									<div class="price">
+										<span class="price-currency">$</span>
+										<span class="price-number">500</span>
+										<span class="price-decimal"></span>
+									</div>
+									<div class="price-description">Billed Monthly</div>
+								</div>
+								<ul class="pricing-package-items">
+									<li>Up to 20 Projects</li>
+									<li>500MB Harddisk Space</li>
+									<li>Up to 1000 Monthly Visitors</li>
+									<li><del>Custom Domain</del></li>
+									<li><del>Premium Themes Access</del></li>
+									<li>24/7 Customer Support</li>
+								</ul>
+							</div>
+						</div>
 
 					</div>
-
 				</div>
 
-			</section>
+			</section> -->
 
 			<!-- TESTIMONIAL SLIDER
 			================================= -->
@@ -1162,7 +1189,7 @@ author: Captivate Real Estate
 								<h2 class="section-heading">Contact Us</h2>
 								<div class="row">
 									<address>
-										<strong>{{ site.company-name }}/strong>
+										<strong>{{ site.company-name }}</strong>
 										<ul class="fa-ul">
 											<li><i class="fa-li fa fa-home"></i>855 Front St<br>San Francisco, CA</li>
 											<li><i class="fa-li fa fa-phone"></i>Phone: 408 666 4411</li>
@@ -1210,7 +1237,7 @@ author: Captivate Real Estate
 
 				<div class="container">
 
-					<h3 class="closing-shout">Ready to start?</h3>
+					<h3 class="closing-shout">We only work with one agent per area and we take our selection process very seriously. If you think you have what it takes apply now.</h3>
 
 					<div class="closing-buttons">
 						<button type= button class="anchor-link btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal">Apply Now To Accelerate Your Career</button>
