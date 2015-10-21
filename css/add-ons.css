@@ -36,9 +36,9 @@
 
 /*Hero Section*/
 .hero-text{
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.8);
   border-radius: 8px;
-  padding-bottom: 30px;
+  padding: 10px 30px 30px 30px;
 }
 
 .hero-buttons .apply-now-button {
@@ -46,7 +46,7 @@
 }
 
 .hero-layout-simple .hero-title {
-  font-size: 50px;
+  font-size: 46px;
 }
 
 .hero-tagline-first {
