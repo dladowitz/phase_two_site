@@ -1,3 +1,12 @@
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+}
+
 /* Applicaiton Modal*/
 .apply-icon {
   font-size: 60px;
@@ -29,15 +38,16 @@
 /*Header*/
 .navbar-logo {
   font-weight: 400;
-  font-family: "playfair display";
+  font-family: "Oswald", serif;
+  letter-spacing: 6px;
   font-size: 25px;
-  color: white;
+  color: grey;
 }
 
 
 /*Hero Section*/
 .hero-text{
-  background: rgba(0,0,0,0.8);
+  /*background: rgba(0,0,0,0.8);*/
   border-radius: 8px;
   padding: 10px 30px 30px 30px;
 }
@@ -48,6 +58,8 @@
 
 .hero-layout-simple .hero-title {
   font-size: 46px;
+  text-transform: none;
+  font-weight: normal;
 }
 
 .hero-tagline-first {
@@ -59,6 +71,7 @@
 .hero-tagline-second {
   font-size: 28px;
   font-weight: 100;
+  font-style: italic;
 }
 
 
@@ -97,4 +110,36 @@
 /*Modal*/
 .no-scroll {
   overflow-y: auto;
+}
+
+/*Buttons*/
+.btn-primary {
+  background-color: #558898;
+  border-color: #558898 !important;
+}
+
+.btn {
+  border-radius: 2px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.headline-text {
+  color: black;
+}
+.headline-text:before, .headline-text:after {
+	background-color: #558898;
+}
+
+.section-heading {
+  text-transform: none;
+  font-size: 45px;
+}
+
+.section-heading:after {
+  display: none;
+}
+
+.section-gray .benefit {
+  background-color: inherit;
 }
