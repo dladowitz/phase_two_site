@@ -1,0 +1,23 @@
+
+/*Header*/
+.navbar-logo {
+  font-weight: 400;
+  font-family: "playfair display";
+  font-size: 25px;
+}
+
+
+/*Hero Section*/
+.hero-layout-simple .hero-title {
+  font-size: 50px;
+}
+
+.hero-tagline-first {
+  font-size: 40px;
+  position: relative;
+  bottom: 20px;
+}
+
+.hero-tagline-second {
+  font-size: 30px;
+}
