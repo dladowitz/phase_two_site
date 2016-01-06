@@ -191,3 +191,44 @@ body {
   font-size: 30px;
   margin-right: 20px;
 }
+
+.numbers-item-counter {
+  color: #B15B5B;
+  font-weight: lighter;
+  font-size: 60px;
+}
+
+.numbers-item-caption {
+  color: black;
+  font-weight: bold;
+}
+
+/*Team*/
+#team .section-background-image{
+  background-color: #2F2C40;
+}
+
+.team-member-text {
+  background: white;
+}
+
+/*footer*/
+#footer {
+  background-color: #2F2C40
+}
+
+.footer-logo {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-logo:after {
+  content: "";
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+  margin-top: 20px;
+	display: block;
+	height: 2px;
+	width: 120px;
+	background-color: #558898;
+}
