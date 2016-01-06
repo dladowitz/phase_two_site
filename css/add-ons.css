@@ -1,23 +1,236 @@
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+}
+
+/* Applicaiton Modal*/
+.apply-icon {
+  font-size: 60px;
+  margin-top: 30px;
+  margin-bottom: 0px !important;
+}
+
+.apply-title-1 {
+  color: black;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.apply-title-2 {
+  color: black;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.form-container {
+  padding: 0 40px;
+}
+
+.apply-input {
+  font-size: 20px;
+}
+
 
 /*Header*/
 .navbar-logo {
   font-weight: 400;
-  font-family: "playfair display";
+  font-family: "Oswald", serif;
+  letter-spacing: 6px;
   font-size: 25px;
+  color: grey;
 }
 
 
 /*Hero Section*/
+.hero-text{
+  /*background: rgba(0,0,0,0.8);*/
+  border-radius: 8px;
+  padding: 10px 30px 30px 30px;
+}
+
+.hero-buttons .apply-now-button {
+  margin-top: 15px;
+}
+
 .hero-layout-simple .hero-title {
-  font-size: 50px;
+  font-size: 46px;
+  text-transform: none;
+  font-weight: normal;
 }
 
 .hero-tagline-first {
   font-size: 40px;
   position: relative;
-  bottom: 20px;
+  bottom: 10px;
 }
 
 .hero-tagline-second {
+  font-size: 28px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+/*Benefits*/
+.benefit {
+  height: 255px;
+}
+.benefit-icon {
+  font-size: 90px;
+}
+.benefit-title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  color: #558898;
+  font-size: 15px;
+}
+
+.benefit-description {
+  color: black;
+}
+
+/*Details Section*/
+.detail-headline {
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  font-size: 25px;
+  color: #ECECEC;
+  margin-left: 25%
+}
+
+.detail-icon {
+  font-size: 40px;
+  margin-right: 30px;
+}
+
+.details-table {
+  text-align: center:;
+}
+
+.details-table td {
+  font-size: 25px;
+}
+
+/*Pricing Section*/
+.price {
+  padding-bottom: 30px;
+}
+
+/*Modal*/
+.no-scroll {
+  overflow-y: auto;
+}
+
+/*Buttons*/
+.btn-primary {
+  background-color: #558898;
+  border-color: #558898 !important;
+}
+
+.btn {
+  border-radius: 2px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.complete-list-btn {
+  color: white;
+  border-color: white;
+}
+
+
+.headline-text {
+  color: black;
+}
+.headline-text:before, .headline-text:after {
+	background-color: #558898;
+}
+
+.section-heading {
+  text-transform: none;
+  font-size: 45px;
+}
+
+.section-heading:after {
+  display: none;
+}
+
+.section-gray .benefit {
+  background-color: inherit;
+}
+
+.white {
+  color: white;
+}
+
+/*Features*/
+.feature {
+	text-align: center;
+	padding: 30px;
+	background-color: rgba(255, 255, 255, 0.15);
+	margin: 15px 0;
+  color: white;
+  min-height: 240px;
+}
+
+.feature-title {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.feature-description {
+  color: rgba(255, 255, 255, 0.5);;
+  margin-top: 25px;
+}
+
+.feature-icon {
   font-size: 30px;
+  margin-right: 20px;
+}
+
+.numbers-item-counter {
+  color: #B15B5B;
+  font-weight: lighter;
+  font-size: 60px;
+}
+
+.numbers-item-caption {
+  color: black;
+  font-weight: bold;
+}
+
+/*Team*/
+#team .section-background-image{
+  background-color: #2F2C40;
+}
+
+.team-member-text {
+  background: white;
+}
+
+/*footer*/
+#footer {
+  background-color: #2F2C40
+}
+
+.footer-logo {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-logo:after {
+  content: "";
+	position: absolute;
+	left: 50%;
+	margin-left: -60px;
+  margin-top: 20px;
+	display: block;
+	height: 2px;
+	width: 120px;
+	background-color: #558898;
 }

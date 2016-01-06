@@ -1,0 +1,13 @@
+# Site Variable
+company-name: Captivate Real Estate
+domain: "http://www.captivatere.com"
+
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values: # Page Variable
+      layout: "default"
+      title: Captivate
