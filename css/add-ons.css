@@ -80,6 +80,17 @@ body {
   height: 255px;
 }
 
+.benefit-title {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  color: #558898;
+  font-size: 15px;
+}
+
+.benefit-description {
+  color: black;
+}
+
 /*Details Section*/
 .detail-headline {
   border-bottom: 1px solid white;
@@ -124,6 +135,12 @@ body {
   padding-right: 40px;
 }
 
+.complete-list-btn {
+  color: white;
+  border-color: white;
+}
+
+
 .headline-text {
   color: black;
 }
@@ -142,4 +159,35 @@ body {
 
 .section-gray .benefit {
   background-color: inherit;
+}
+
+.white {
+  color: white;
+}
+
+/*Features*/
+.feature {
+	text-align: center;
+	padding: 30px;
+	background-color: rgba(255, 255, 255, 0.15);
+	margin: 15px 0;
+  color: white;
+  min-height: 240px;
+}
+
+.feature-title {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+.feature-description {
+  color: rgba(255, 255, 255, 0.5);;
+  margin-top: 25px;
+}
+
+.feature-icon {
+  font-size: 30px;
+  margin-right: 20px;
 }
