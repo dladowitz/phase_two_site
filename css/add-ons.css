@@ -79,7 +79,9 @@ body {
 .benefit {
   height: 255px;
 }
-
+.benefit-icon {
+  font-size: 90px;
+}
 .benefit-title {
   font-family: "Oswald", sans-serif;
   letter-spacing: 3px;
