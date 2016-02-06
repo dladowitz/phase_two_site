@@ -44,6 +44,16 @@ body {
   color: grey;
 }
 
+.get-your-team-nav {
+  background-color: transparent !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+
+.get-your-team-nav:hover {
+  border: 1px solid rgba(255,255,255,0.25) !important;
+  color: inherit !important; 
+}
 
 /*Hero Section*/
 .hero-text{
@@ -57,7 +67,7 @@ body {
 }
 
 .hero-layout-simple .hero-title {
-  font-size: 46px;
+  font-size: 40px;
   text-transform: none;
   font-weight: normal;
 }
