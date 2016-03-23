@@ -44,6 +44,11 @@ body {
   color: grey;
 }
 
+.navbar-workshop {
+  font-size: 20px;
+  color: white;
+}
+
 .get-your-team-nav {
   background-color: transparent !important;
   border-color: #fff !important;
@@ -52,7 +57,7 @@ body {
 
 .get-your-team-nav:hover {
   border: 1px solid rgba(255,255,255,0.25) !important;
-  color: inherit !important; 
+  color: inherit !important;
 }
 
 /*Hero Section*/
