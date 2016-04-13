@@ -64,7 +64,13 @@ body {
 
 /*Hero Section*/
 .hero-text{
-  /*background: rgba(0,0,0,0.8);*/
+  /*background: rgba(0,0,0,0.75);*/
+  border-radius: 8px;
+  padding: 10px 30px 30px 30px;
+}
+
+.hero-text-investment{
+  background: rgba(0,0,0,0.75);
   border-radius: 8px;
   padding: 10px 30px 30px 30px;
 }
