@@ -44,11 +44,13 @@ body {
   color: grey;
 }
 
-.navbar-workshop {
-  font-size: 20px;
-  color: white;
+.navbar-link {
+  color: #558898 !important;
 }
 
+.navbar-link:hover {
+  color: #50a0dc !important;
+}
 .get-your-team-nav {
   background-color: transparent !important;
   border-color: #fff !important;
