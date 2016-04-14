@@ -44,6 +44,13 @@ body {
   color: grey;
 }
 
+.navbar-link {
+  color: #558898 !important;
+}
+
+.navbar-link:hover {
+  color: #50a0dc !important;
+}
 .get-your-team-nav {
   background-color: transparent !important;
   border-color: #fff !important;
@@ -52,14 +59,18 @@ body {
 
 .get-your-team-nav:hover {
   border: 1px solid rgba(255,255,255,0.25) !important;
-  color: inherit !important; 
+  color: inherit !important;
 }
 
 /*Hero Section*/
 .hero-text{
-  /*background: rgba(0,0,0,0.8);*/
+  /*background: rgba(0,0,0,0.75);*/
   border-radius: 8px;
   padding: 10px 30px 30px 30px;
+}
+
+.hero-title-investment{
+  margin-bottom: 45px;
 }
 
 .hero-buttons .apply-now-button {
@@ -101,6 +112,11 @@ body {
 
 .benefit-description {
   color: black;
+}
+
+.yourshare {
+  font-size: 18px;
+  color: gray;
 }
 
 /*Details Section*/
@@ -181,10 +197,10 @@ body {
 .feature {
 	text-align: center;
 	padding: 30px;
-	background-color: rgba(255, 255, 255, 0.15);
+	background-color: rgba(0, 0, 0, 0.5);
 	margin: 15px 0;
   color: white;
-  min-height: 204px;
+  min-height: 415px;
 }
 
 .feature-title {
@@ -195,7 +211,7 @@ body {
 }
 
 .feature-description {
-  color: rgba(255, 255, 255, 0.5);;
+  color: rgba(255, 255, 255, 0.75);;
   margin-top: 25px;
 }
 
