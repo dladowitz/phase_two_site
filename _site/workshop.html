@@ -44,6 +44,7 @@
 
 		<!-- Add-on CSS -->
 		<link rel="stylesheet" href="../css/add-ons.css">
+		<link rel="stylesheet" href="../css/workshop.css">
 		<link rel="stylesheet" href="../css/margins-sizes.css">
 
 		<!-- Google Docs Application Form -->
@@ -248,10 +249,12 @@
 						</div>
 
 						<div class="row">
-							<div class="col-md-10 col-md-offset-1">
-
+							<div class="col-md-10 col-md-offset-1 text-center">
+								<div class="hero-button mt30">
+									<button type="button" class="btn btn-lg btn-primary apply-now-button oswald" data-toggle="modal" data-target="#workshopModal">Enter Your Email to See If You're a Fit</button>
+								</div>
 								<!-- SUBSCRIPTION FORM -->
-								<form name="subscribe" action="modules/subscribe-mailchimp.php" method="post" id="subscription-form" class="subscription-form form-ajax-submit" role="form">
+								<!-- <form name="subscribe" action="modules/subscribe-mailchimp.php" method="post" id="subscription-form" class="subscription-form form-ajax-submit" role="form">
 									<div class="form-validation alert"></div>
 									<div class="form-group subscription-form-wrapper">
 										<span class="subscription-form-input">
@@ -261,7 +264,7 @@
 											<button class="btn btn-primary btn-lg" data-loading-text="Action Button">See If You're a Fit</button>
 										</span>
 									</div>
-								</form>
+								</form> -->
 
 							</div>
 						</div>
@@ -1181,7 +1184,7 @@
 	<div class="container">
 		<h3 class="closing-shout">We’re building tomorrow’s agents. Find out if you’re a fit for the program.</h3>
 		<div class="closing-buttons">
-			<div class="closing-buttons" data-animation="tada"><a href="#hero" class="anchor-link btn btn-lg btn-primary">Speak to an instructor today</a></div>
+			<div class="closing-buttons" data-animation="tada"><a href="#" class="anchor-link btn btn-lg btn-primary" data-toggle="modal" data-target="#workshopModal">Speak to an instructor today</a></div>
 		</div>
 	</div>
 </section>
